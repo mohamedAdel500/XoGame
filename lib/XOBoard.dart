@@ -13,7 +13,7 @@ class BoardState extends State {
       children: [
         Column(
           children: [
-            Text('Welcome to our XO game '),
+            Text('Welcome to our XOasfasfas game '),
             Text('Player 1 (X) and Player 2 (O)'),
             Text(
                 'player turn is:  ${playingCounter % 2 != 0 ? 'player 1 ' : 'player 2 '}'),
